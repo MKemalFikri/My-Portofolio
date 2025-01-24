@@ -1,0 +1,300 @@
+body {
+    background-color: #090b11;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.navigasi a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.header-menu {
+    margin-left: 145px;
+    margin-top: 30px;
+    display: flex;
+    gap: 15rem;
+    flex-wrap: wrap;
+}
+.nama-product {
+        display: flex;
+        padding: 30px;
+        margin: 0;
+}
+.menu-inti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.navigasi {
+    position: relative;
+    flex-direction: row;
+    font-size: var(--text-sm);
+    border-radius: 999rem;
+    border: 0;
+    display: flex;
+    margin: 0;
+    padding: .5rem .5625rem;
+    background: radial-gradient(#141925, #283044, 150%);
+    justify-content: center;
+    margin: 0;
+    gap: 1rem;
+    list-style: none;
+    padding: 1rem;
+    background-color: #090b11;
+    border-bottom: 1px solid #ffffff;
+    margin-right: 9rem;
+}
+.instagram {
+    margin-top: 1%;
+    height: 80px;
+    max-width: 80px;
+}
+.navigasi li {
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.1s ease;
+    border-radius: 999rem;
+}
+
+.navigasi li:hover {
+    background-color: #283044;
+    border-radius: 999rem;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.headings {
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.aboutme {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 900px;
+    margin: 130px auto;
+}
+
+.poto {
+    max-width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.aboutme p {
+    margin: 0;
+    line-height: 1.5;
+}
+p {
+    font-size: 20px;
+}
+.nama-skill {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 130px;
+}
+.skill-section {
+    display: flex;
+}
+.skill-set {
+    display:  grid;
+    grid-template-columns: repeat(3, 1fr); 
+    margin: auto 30px;  
+}
+.html-skills {
+    background-color: #283044;
+    border-radius: 15px;
+    width: 475px;
+    height: 270px;
+    margin: auto auto 10px 10px;
+}
+.skill-html {
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 50px;
+    display: flex;
+}
+.html-mastery {
+    margin-top: 3rem;
+    margin-left: 30px;
+    font-size: 22px;
+}
+.skill-line {
+    display: flex;
+}
+.html-logo {
+    height: auto;
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.logo-html-dan-text {
+    display: flex;
+}
+   
+.beginner-line { 
+        margin-top: 10px;
+        width: 150px;
+        height: 10px;
+        color: 	#00ff00;
+        background-color: 	#00ff00;
+        border: none;
+        margin-left: 30px;
+        margin-top: 3px;
+        margin-right: 5px;
+    }
+    .intermediate-line {
+        margin-top: 10px;
+        width: 150px;
+        height: 10px;
+        color: yellow;
+        background-color: yellow;
+        border: none;
+        margin-left: 0;
+        margin-top: 3px;
+        opacity: 10%;
+    }
+    .expert-line {
+        margin-top: 10px;
+        width: 150px;
+        height: 10px;
+        color: red;
+        background-color: red;
+        border: none;
+        margin-right: 30px;
+        margin-left: 5px;
+        margin-top: 3px;
+        opacity: 10%;
+    }
+    .css-skills {
+        background-color: #283044;
+        border-radius: 15px;
+        width: 475px;
+        height: 270px;
+        margin: auto auto 10px 10px;
+    }
+    .skill-css {
+        font-size: 40px;
+        margin-left: 30px;
+        margin-top: 50px;
+        display: flex;
+    }
+    .css-mastery{
+        margin-top: 3rem;
+        margin-left: 30px;
+        font-size: 22px;
+    }
+    .skill-css {
+        display: flex;
+    }
+    .css-logo {
+        height: auto;
+        width: 20%;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .logo-css-dan-text {
+        display: flex;
+    }
+    
+    
+    .java-skills {
+        background-color: #283044;
+        border-radius: 15px;
+        width: 475px;
+        height: 270px;
+        margin: auto auto 10px 10px;
+    }
+    .skill-java {
+        font-size: 40px;
+        margin-left: 30px;
+        margin-top: 50px;
+        display: flex;
+    }
+    .java-mastery{
+        margin-top: 3rem;
+        margin-left: 30px;
+        font-size: 22px;
+    }
+    .skill-java {
+        display: flex;
+    }
+    .java-logo {
+        height: auto;
+        width:  25%;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .logo-java-dan-text {
+        display: flex;
+    }
+    .skill-set > div:nth-child(4) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .extra-skill-set {
+        grid-column: span 3; 
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #283044; 
+        height: 400px;
+    }
+    .next-skill {
+        font-size: 75px;
+        text-align: center;
+    }
+    .skill-tambahan {
+        font-size: 50px;
+        text-align: center;
+}
+@media (max-width: 768px) {
+    .nama-product {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .menu-inti {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigasi {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .aboutme {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headings {
+        font-size: 1.5rem;
+    }
+
+    .skill-box {
+        padding: 10px;
+    }
+
+    .extra-skill-set {
+        padding: 10px;
+    }
+}
